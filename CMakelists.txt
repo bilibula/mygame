@@ -1,0 +1,47 @@
+
+cmake_minimum_required(VERSION 3.21)
+project(Age_of_Stone)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
+
+find_package(Qt6 COMPONENTS
+        Core
+        Gui
+        Widgets
+        REQUIRED)
+
+
+
+add_executable(${PROJECT_NAME}
+        ${PROJECT_NAME}/main.cpp
+        ${PROJECT_NAME}/mainwindow.cpp
+        ${PROJECT_NAME}/mainwindow.h
+        ${PROJECT_NAME}/mainwindow.ui
+        ${PROJECT_NAME}/icon.qrc
+        ${PROJECT_NAME}/board.h
+        ${PROJECT_NAME}/board.cpp
+        ${PROJECT_NAME}/cardlist.h
+        ${PROJECT_NAME}/cardlist.cpp
+        ${PROJECT_NAME}/card.h
+        ${PROJECT_NAME}/card.cpp
+        ${PROJECT_NAME}/interfunc.h
+        ${PROJECT_NAME}/interfunc.cpp
+        ${PROJECT_NAME}/game.h
+        ${PROJECT_NAME}/game.cpp
+        ${PROJECT_NAME}/cardimages.qrc
+        )
+
+
+target_link_libraries(${PROJECT_NAME}
+        Qt::Core
+        Qt::Gui
+        Qt::Widgets
+        )
+
