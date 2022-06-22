@@ -1,0 +1,56 @@
+<RCC>
+    <qresource prefix="/card">
+        <file>images/0_0.jpg</file>
+        <file>images/0_1.jpg</file>
+        <file>images/0_2.jpg</file>
+        <file>images/0_3.jpg</file>
+        <file>images/0_4.jpg</file>
+        <file>images/0_5.jpg</file>
+        <file>images/0_6.jpg</file>
+        <file>images/0_7.jpg</file>
+        <file>images/0_8.jpg</file>
+        <file>images/0_9.jpg</file>
+        <file>images/0_10.jpg</file>
+        <file>images/0_11.jpg</file>
+        <file>images/0_12.jpg</file>
+        <file>images/1_0.jpg</file>
+        <file>images/1_1.jpg</file>
+        <file>images/1_2.jpg</file>
+        <file>images/1_3.jpg</file>
+        <file>images/1_4.jpg</file>
+        <file>images/1_5.jpg</file>
+        <file>images/1_6.jpg</file>
+        <file>images/1_7.jpg</file>
+        <file>images/1_8.jpg</file>
+        <file>images/1_9.jpg</file>
+        <file>images/1_10.jpg</file>
+        <file>images/1_11.jpg</file>
+        <file>images/1_12.jpg</file>
+        <file>images/1_13.jpg</file>
+        <file>images/1_14.jpg</file>
+        <file>images/1_15.jpg</file>
+        <file>images/2_0.jpg</file>
+        <file>images/2_1.jpg</file>
+        <file>images/2_2.jpg</file>
+        <file>images/2_3.jpg</file>
+        <file>images/2_4.jpg</file>
+        <file>images/2_5.jpg</file>
+        <file>images/2_6.jpg</file>
+        <file>images/2_7.jpg</file>
+        <file>images/2_8.jpg</file>
+        <file>images/2_9.jpg</file>
+        <file>images/2_10.jpg</file>
+        <file>images/2_11.jpg</file>
+        <file>images/2_12.jpg</file>
+        <file>images/2_13.jpg</file>
+        <file>images/2_14.jpg</file>
+        <file>images/2_15.jpg</file>
+    </qresource>
+    <qresource prefix="/background">
+        <file>images/bg.jpg</file>
+        <file>images/welcome_bg.jpg</file>
+    </qresource>
+    <qresource prefix="/icon">
+        <file>images/icon.ico</file>
+    </qresource>
+</RCC>

@@ -6,18 +6,15 @@
 #include "card.h"
 class Board : public QObject
 {
-    Q_OBJECT
+Q_OBJECT
 public:
     explicit Board(QObject *parent = 0);
     ~Board();
     /*N暂定为最大的牌数量*/
-    static const int N = 7, M = 7;
+    static const int N = 52, M = 52;
     /* 返回用于渲染的QGraphicsView* */
     QGraphicsView* View();
-    /* 走一回合，两个点分别为(r,c)和(nr,nc). 若flipTurn为真，下完这步棋后会转换先后手 */
-    void put(int r, int c, int nr, int nc, bool flipTurn = true); /* put alternatively with black first */
-    /* 重置面板，以f[][]为状态 */
-    
+
     /* 重置为开局状态 */
     void reset();
     /* 允许用户操作 */
@@ -31,6 +28,9 @@ private:
 
     /* 卡牌 */
     Card* card[N];
+    CardList* cardList[M];
+    QList<Card*> allCards;
+
     bool lifted; /* 是否拿起一张卡牌 */
     int liftX, liftY; /* 拿起卡牌坐标 */
     /* 根据card[]更新颜色 */
