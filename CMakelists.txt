@@ -25,12 +25,12 @@ add_executable(${PROJECT_NAME}
         ${PROJECT_NAME}/mainwindow.h
         ${PROJECT_NAME}/mainwindow.ui
         ${PROJECT_NAME}/icon.qrc
-        ${PROJECT_NAME}/board.h
-        ${PROJECT_NAME}/board.cpp
         ${PROJECT_NAME}/cardlist.h
         ${PROJECT_NAME}/cardlist.cpp
         ${PROJECT_NAME}/card.h
         ${PROJECT_NAME}/card.cpp
+        ${PROJECT_NAME}/board.h
+        ${PROJECT_NAME}/board.cpp
         ${PROJECT_NAME}/interfunc.h
         ${PROJECT_NAME}/interfunc.cpp
         ${PROJECT_NAME}/game.h

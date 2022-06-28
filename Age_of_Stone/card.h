@@ -81,7 +81,7 @@ enum Resource : int {
 };
 class Card: public QObject, public QGraphicsRectItem
 {
-Q_OBJECT
+    Q_OBJECT
 public:
 
     ~Card();
